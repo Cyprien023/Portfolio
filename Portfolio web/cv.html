@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Luzuy Cyprien</title>
+    <link rel="stylesheet" href="./assets/style/cv.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -143,21 +144,16 @@
               </a>
             </li>
           </ul>
+          <br>
           <div class="flex justify-between items-center">
-            <div>
-              <div
-                class="bg-cover bg-no-repeat rounded-full h-52 w-52"
-                style="background-image: url(../bootstrap/dog.jpg)"
-              ></div>
-            </div>
             <div class="grid justify-items-end">
-              <h1 class="text-7xl font-bold font-mono">Cyprien Luzuy</h1>
+              <h1 class="text-7xl font-bold font-mono cv-titre">Cyprien Luzuy</h1>
               <p class="text-xl mt-5">
                 Etudiant en deuxième année à l'école Hexagone
               </p>
             </div>
           </div>
-          <main class="flex gap-x-10 mt-10">
+          <main class="flex gap-x-10 mt-10 cv-resp">
             <div class="w-2/6">
               <strong class="text-xl font-medium">Contact</strong>
               <ul class="mt-2 mb-10">
@@ -204,7 +200,7 @@
               </ul>
             </div>
             <div class="w-4/6">
-              <section>
+              <section class="cv-bot">
                 <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">
                   Etudes
                 </h2>
@@ -248,7 +244,7 @@
                   </li>
                 </ul>
               </section>
-              <section>
+              <section class="cv-bot">
                 <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">
                   Expérience
                 </h2>
@@ -283,7 +279,7 @@
                   </li>
                 </ul>
               </section>
-              <section>
+              <section class="cv-bot">
                 <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">
                   Langues
                 </h2>
@@ -296,7 +292,7 @@
                   </li>
                 </ul>
               </section>
-              <section>
+              <section class="cv-bot">
                 <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">
                   Voyages
                 </h2>
@@ -321,26 +317,7 @@
             </div>
           </main>
 
-          <footer class="bg-white shadow dark:bg-gray-800">
-            <div
-              class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
-            >
-              <span
-                class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-                >© 2023
-                <a href="./assets/img/logo-c.png" class="hover:underline"
-                  >Cyprien "YoungBlood" Luzuy™</a
-                >. All Rights Reserved.
-              </span>
-              <ul
-                class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
-              >
-                <li>
-                  <a href="contact.html" class="hover:underline">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </footer>
+          
         </div>
 
         <script>
