@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Luzuy Cyprien</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="bg-auto bg-scroll bg-no-repeat"
+      style="background-image: url(./assets/img/img-moutain-grand.jpg)"
+    >
+      <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-10">
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+          >
+            <a href="index.html" class="flex items-center">
+              <img
+                src="./assets/img/logo-c.png"
+                class="h-8 mr-3"
+                alt="logo cyprien"
+              />
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                >Cyprien Luzuy</span
+              >
+            </a>
+            <button
+              id="menu-toggle"
+              data-collapse-toggle="navbar-default"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+              <ul
+                class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              >
+                <li>
+                  <a
+                    href="index.html"
+                    class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                    aria-current="page"
+                    >Accueil</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="cv.html"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >CV</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="projet.html"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >Projet</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="container-fluid flex flex-col justify-center h-screen">
+        <h1 class="font-mono text-6xl font-semibold text-center text-white">
+          Cyprien Luzuy
+        </h1>
+
+        <div
+          class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"
+        ></div>
+
+        <div class="mx-auto max-w-2xl lg:max-w-4xl">
+          <figure class="mt-10">
+            <blockquote
+              class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9"
+            >
+              <p>
+                “Je suis Cyprien Luzuy, étudiant en informatique en deuxième
+                année à l'école Hexagone. Passionné par la technologie, mes
+                terrains de jeux préféré sont le dévellopement web et la cyber
+                sécurité. En dehors des cours, j'aime la guitare, le le hockey
+                sur glace et les jeux vidéos. Mon objectif est de continuer à
+                apprendre et à grandir dans le domaine de l'informatique tout en
+                explorant de nouvelles opportunités passionnantes.”
+              </p>
+            </blockquote>
+            <figcaption class="mt-10">
+              <img
+                class="mx-auto h-10 w-10 rounded-full"
+                src="assets/img/img-cv.jpg"
+                alt=""
+              />
+              <div
+                class="mt-4 flex items-center justify-center space-x-3 text-base"
+              >
+                <div class="font-semibold text-gray-900">Luzuy Cyprien</div>
+                <svg
+                  viewBox="0 0 2 2"
+                  width="3"
+                  height="3"
+                  aria-hidden="true"
+                  class="fill-gray-900"
+                >
+                  <circle cx="1" cy="1" r="1" />
+                </svg>
+                <div class="text-gray-600">
+                  Etudiant en deuxième année au sein de l'école Hexagone
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="overflow-hidden py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+          >
+            <div class="lg:pr-8 lg:pt-4">
+              <div class="lg:max-w-lg">
+                <h2 class="text-base font-semibold leading-7 text-indigo-600">
+                  Acquérir de nouvelles compétences
+                </h2>
+                <p
+                  class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                >
+                  Compétences
+                </p>
+                <dl
+                  class="mt-8 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
+                >
+                  <div class="relative pl-9">
+                    <dt class="font-semibold text-gray-900">
+                      <img
+                        src="./assets/img/html.png"
+                        width="5%"
+                        alt="logo HTML"
+                      />
+                      <img
+                        src="./assets/img/css.png"
+                        width="5%"
+                        alt="logo CSS"
+                      />
+                      <img
+                        src="./assets/img/js.png"
+                        width="5%"
+                        alt="logo JavaScript"
+                      />
+                      HTML, CSS, JavaScript
+                    </dt>
+                    <dd class="inline">
+                      Création de sites internet interactifs
+                    </dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <img
+                        src="./assets/img/c++.png"
+                        width="5%"
+                        alt="logo JavaScript"
+                      />
+                      C++
+                    </dt>
+                    <dd class="inline">Jeu orienté objet</dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <img
+                        src="./assets/img/python.png"
+                        width="5%"
+                        alt="logo JavaScript"
+                      />
+                      Python
+                    </dt>
+                    <dd class="inline">Puissance 4, Morpion...</dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <img
+                        src="./assets/img/sql.png"
+                        width="5%"
+                        alt="logo JavaScript"
+                      />
+                      SQL
+                    </dt>
+                    <dd class="inline">Gestion d'une base de donnée</dd>
+                  </div>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <img
+                        src="./assets/img/php.png"
+                        width="5%"
+                        alt="logo JavaScript"
+                      />
+                      PHP
+                    </dt>
+                    <dd class="inline">Création d'un forum d'échecs</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <img
+              src="./assets/img/git-cyp.png"
+              alt="Product screenshot"
+              class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              width="2432"
+              height="1442"
+            />
+          </div>
+        </div>
+      </div>
+
+
+
+      <h2 class="font-mono text-3xl font-semibold text-center text-rose-200">
+        Formations
+      </h2>
+
+      <br>
+
+      <ol class="relative border-1 border-gray-200 dark:border-gray-700">
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >Actuellement</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Etudiant au sein de l'école Hexagone
+          </h3>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2023-2024</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Deuxième année cycle préparatoire en ingénieurie de l'informatique
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Clermont-Ferrand Turing 22
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2022-2023</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Première année cycle préparatoire en ingénieurie de l'informatique
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Clermont-Ferrand Turing 22
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2022</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Diplomé du baccalauréat technologique
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Lycée La Fayette STI2D SIN
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2019</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Diplomé du Brevet des collèges
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Collège La Ribeyre
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2018</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            PSC 1
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Certificat de prévention et secours civiques de niveau 1
+          </p>
+        </li>
+      </ol>
+
+
+<br><br>
+
+
+<h2 class="font-mono text-3xl font-semibold text-center text-rose-200">
+  Experience professionnelle
+</h2>
+
+<br>
+
+<div class="right-0 p-8">
+      <ol class="border-1 border-gray-200 dark:border-gray-700">
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2023</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Stage de 6 semaines chez Coucouvisio
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Création d'un site vitrine
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2019</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Stage de 3ème au sein d'un magasin de musique
+          </h3>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            Collège La Ribeyre
+          </p>
+        </li>
+        <li class="mb-10 ml-4 pl-40">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-violet-400 dark:text-gray-500"
+            >2011-2014</time
+          >
+          <h3 class="text-lg font-semibold text-rose-200 dark:text-white">
+            Participation à la découverte sportive de l'Association des Paralysés de France (APF)
+          </h3>
+        </li>
+      </ol>
+      </div>
+
+
+
+      <br><br><br><br>
+
+
+
+      <footer class="bg-white shadow dark:bg-gray-800">
+        <div
+          class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+        >
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2023
+            <a href="./assets/img/logo-c.png" class="hover:underline"
+              >Cyprien "YoungBlood" Luzuy™</a
+            >. All Rights Reserved.
+          </span>
+          <ul
+            class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+          >
+            <li>
+              <a href="contact.html" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("navbar-default");
+
+        menuToggle.addEventListener("click", function () {
+          if (mobileMenu.classList.contains("hidden")) {
+            mobileMenu.classList.remove("hidden");
+          } else {
+            mobileMenu.classList.add("hidden");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
