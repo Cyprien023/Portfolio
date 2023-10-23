@@ -1,9 +1,11 @@
 @media (max-width: 670px) {
     
-    
+    .img-background {
+        background-size: cover;
+    }
 
     .cv-titre {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .cv-resp {
@@ -12,7 +14,14 @@
         align-items: center;
     }
 
+    .cv-nowrap {
+        display: flex;
+        white-space: nowrap;
+   }
+
     .cv-bot {
         color: aliceblue;
     }
+
+
 }
